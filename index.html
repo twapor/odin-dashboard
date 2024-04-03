@@ -11,46 +11,46 @@
         <div id="sidebar">
             <div id="sidebar-content">
                 <div id="sidebar-logo">
-                    <img src="./sidebar-logo" alt="sidebar logo">
+                    <img src="./img/logo.png" alt="sidebar logo">
                 </div>
                 <div id="sidebar-navigation">
                     <ul id="sbar-top-nav">
                         <li class="sbar-nav-itm">
-                            <img src="" alt="home icon" class="nav-icon">
+                            <img src="./icons/home-account.svg" alt="home icon" class="nav-icon">
                             <p class="nav-text">Home</p>
                         </li>
                         <li class="sbar-nav-itm">
-                            <img src="" alt="profile icon" class="nav-icon">
+                            <img src="./icons/profile.svg" alt="profile icon" class="nav-icon">
                             <p class="nav-text">Profile</p>
                         </li>
                         <li class="sbar-nav-itm">
-                            <img src="" alt="messages icon" class="nav-icon">
+                            <img src="./icons/message.svg" alt="messages icon" class="nav-icon">
                             <p class="nav-text">Messages</p>
                         </li>
                         <li class="sbar-nav-itm">
-                            <img src="" alt="history icon" class="nav-icon">
+                            <img src="./icons/history.svg" alt="history icon" class="nav-icon">
                             <p class="nav-text">History</p>
                         </li>
                         <li class="sbar-nav-itm">
-                            <img src="" alt="tasks icon" class="nav-icon">
-                            <p class="nav-text"></p>
+                            <img src="./icons/task.svg" alt="tasks icon" class="nav-icon">
+                            <p class="nav-text">Tasks</p>
                         </li>
                         <li class="sbar-nav-itm">
-                            <img src="" alt="communities icon" class="nav-icon">
+                            <img src="./icons/community.svg" alt="communities icon" class="nav-icon">
                             <p class="nav-text">Communities</p>
                         </li>
                     </ul>
-                    <ul id="sbar-btn-nav">
+                    <ul id="sbar-bottom-nav">
                         <li class="sbar-nav-itm">
-                            <img src="" alt="settings icon" class="nav-icon">
+                            <img src="./icons/settings.svg" alt="settings icon" class="nav-icon">
                             <p class="nav-text">Settings</p>
                         </li>
                         <li class="sbar-nav-itm">
-                            <img src="" alt="support icon" class="nav-icon">
+                            <img src="./icons/support.svg" alt="support icon" class="nav-icon">
                             <p class="nav-text">Support</p>
                         </li>
                         <li class="sbar-nav-itm">
-                            <img src="" alt="privacy icon" class="nav-icon">
+                            <img src="./icons/privacy.svg" alt="privacy icon" class="nav-icon">
                             <p class="nav-text">Privacy</p>
                         </li>
                     </ul>
@@ -59,27 +59,70 @@
         </div>
         <div id="top-bar">
             <div id="top-bar-content">
-                <div class="top-serach">
-                    <img src="" alt="search icon" class="top-icon">
+                <div class="top-search">
+                    <img src="./icons/search.svg" alt="search icon" class="top-icon">
                     <input type="text" id="search">
                 </div>
                 <div class="top-account">
-                    <img src="" alt="notification icon" class="top-icon">
+                    <img src="./icons/notifications.svg" alt="notification icon" class="top-icon">
                     <div class="profile">
-                        <img src="" alt="profile picture" class="profile-picture">
+                        <img src="./img/profile-picture.png" alt="profile picture" class="profile-picture">
                         <p class="profile-name">John Doe</p>
                     </div>
                 </div>
             </div>
             <div id="top-bar-lower">
                 <div class="top-bar-welcome">
-                    <img src="" alt="profile picture" class="large-profile-picture">
-                    <p>Hi there,</p>
-                    <p class="large-profile-name">John Doe</p>
+                    <img src="./img/profile-picture.png" alt="profile picture" class="large-profile-picture">
+                    <div class="welcome-text">
+                        <p>Hi there,</p>
+                        <p id="large-profile-name">John Doe</p>
+                    </div>
                 </div>
                 <button class="primary-btn" id="new-primary-btn">New</button>
                 <button class="primary-btn" id="upload-primary-btn">Upload</button>
                 <button class="primary-btn" id="share-primary-btn">Share</button>
+            </div>
+        </div>
+        <div id="dashboard">
+            <div id="projects">
+                <h2>Your Projects</h2>
+                <div class="project-card-holder">
+                    <div class="project-card">
+                        <h3 class="project-title">Super Cool Project</h3>
+                        <p class="project-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at imperdiet mi, et tristique diam. Nunc condimentum justo a lorem euismod auctor.
+                        </p>
+                        <div class="project-controls">
+                            <a href="" class="control-manage" id="favorites">
+                                <img src="./icons/favourite.svg" alt="favorites icon" class="control-icon">
+                            </a>
+                            <a href="" id="seen" class="control-manage">
+                                <img src="./icons/read.svg" alt="seen icon" class="control-icon">
+                            </a>
+                            <a href="" id="share" class="control-manage">
+                                <img src="./icons/share.svg" alt="share icon" class="control-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Less Cool Project</h3>
+                        <p class="project-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at imperdiet mi, et tristique diam. Nunc condimentum justo a lorem euismod auctor.
+                        </p>
+                        <div class="project-controls">
+                            <a href="" class="control-manage" id="favorites">
+                                <img src="./icons/favourite.svg" alt="favorites icon" class="control-icon">
+                            </a>
+                            <a href="" id="seen" class="control-manage">
+                                <img src="./icons/read.svg" alt="seen icon" class="control-icon">
+                            </a>
+                            <a href="" id="share" class="control-manage">
+                                <img src="./icons/share.svg" alt="share icon" class="control-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
